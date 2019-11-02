@@ -1,0 +1,117 @@
+
+/*RESPONSIVT*/
+#main-content-grid{
+            display: grid;
+            position: relative;
+            grid-template-columns: repeat(12, 1fr);
+            grid-gap: 2rem;
+        }
+        
+.col-xs-12{
+            grid-column: auto / span 12;
+        }
+        
+@media (min-width: 760px) {
+           
+.col-md-12{
+    grid-column: auto / span 12;
+    }
+            
+.col-md-6{
+    grid-column: auto / span 6;
+    }
+}
+                   
+@media (min-width: 992px) {
+           
+.col-lg-12{
+   grid-column: auto / span 12;
+     }
+            
+.col-lg-6{
+    grid-column: auto / span 6;
+    }
+            
+.col-lg-4{ 
+    grid-column: auto / span 3;
+    }
+}
+
+
+/*ID*/
+#head {
+         height: 100px;
+        background-color: rgb(0, 0, 20);
+    padding-left: 20px;
+        }
+
+#pstpicture {
+    height: 50px;
+    position: absolute;
+    top: 50px;
+}
+         
+#main-banner {
+            height: 200px;
+            background-color: rgb(229, 200, 54);
+            position: relative;
+            width: 800px;
+            left: 300px;
+            border:3px solid black;
+            background-image: url(Bilder/pstbanner.png);
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+        }
+     
+#kropp {
+       background-color: rgb(41, 51, 70); 
+     }
+
+#footer{
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#container {
+    background-color: rgb(216, 218, 222);
+    padding-bottom: 20px;
+     padding-top: 10px;
+    padding-left:30px;
+    padding-right:20px;
+    width:96%;
+    border: 3px solid black;
+}
+
+
+/*KLASSER*/
+
+.img-fluid{
+    width:100%;
+    height: 300px;
+    border: 3px solid black;
+        }
+
+.main-content{
+    background-color: rgb(254, 254, 254);
+    width:300px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    border:3px solid black;
+}
+
+.edit-div{
+    display:none;
+}
+
+.inner-content {
+    display:none;
+}
+
+.footer-txt {
+    color: rgb(254, 254, 254);
+}
+
