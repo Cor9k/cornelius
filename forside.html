@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="alt.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scaling=1">
+    <title>PST</title>
+</head>
+
+<body id="kropp">
+
+<!--HEADER INNHOLD-->
+    <header>
+        <div id="head">
+            <img id="pstpicture" src="Bilder/pst2.png" />
+            <div class=""></div>
+        </div>
+    </header>
+
+<!--PST BANNER-->
+    <div id="main-banner">
+    </div>
+
+<!--ALT AV SAKER PÅ SIDEN DELT OPP I ARTIKLER SOM ER RESPONSIVE-->
+    <div id="container">
+        <main id="main-content-grid">
+
+<!--SAK1 INNHOLD-->
+            <article class="col-xs-12 col-md-6 col-lg-4">
+                <div class="main-content">
+<!--TITTEL, BILDE OG BESKRIVELSE-->
+                    <h1 class="title">Politivold</h1>
+                    <img class="img-fluid" src="Bilder/politivold.jpg" />
+                    <p class="breadtext">Politimann etterlyst etter maktmisbrukt</p>
+
+<!--KNAPPER FOR Å LESE MER OG REDIGERE SAK + LØST/IKKE LØST-->
+                    <button class="read-more">Les mer</button><button class="edit-btn">Rediger sak</button>
+                    <input type="checkbox" name="løst">Løst/Ikke løst<p>
+<!--INNHOLDS DIV-->
+                        <div class="inner-content">
+                            <p class="date">Dato: 25.10.19</p>
+                            <p class="time">Klokken: 23.00 </p>
+                            <p class="place">Sted: Grünerløkka, Oslo </p>
+                            <p class="case-content">Politimann ble anmeldt for grovt maktmisbruk på mann(24). Etter anmeldelsen forsvant politimannen, han er ikke funnet til dags dato</p>
+                        </div>
+<!--REDIGERINGS DIV-->
+                        <div class="edit-div">
+                            <form>
+
+                                <p>Tittel:<input class="input-title" input="text" name="title" value="Politivold"></p>
+
+                                <p>Beskrivelse:</p><textarea class="input-bread" rows="4" cols="40">Politimann etterlyst etter maktmisbrukt</textarea>
+
+                                <br><input class="input-date" type="text" name="dato" value="Dato:25.10.19">
+
+                                <br><input class="input-time" type="text" name="klokken" value="Klokken:23.00">
+
+                                <br><input class="input-place" type="text" name="sted" value="Sted:Grünerløkka, Oslo">
+
+                                <p>Innhold:</p><textarea class="input-content" rows="4" cols="40">Politimann ble anmeldt for grovt maktmisbruk på mann(24). Etter anmeldelsen forsvant politimannen, han er ikke funnet til dags dato</textarea>
+                            </form>
+                            <button class="save-btn">Lagre</button> <button class="delete-btn">Slett sak</button>
+                        </div>
+
+                </div>
+            </article>
+<!--SAK2 INNHOLD-->           
+            <article class="col-xs-12 col-md-6 col-lg-4">
+                <div class="main-content">
+                  
+<!--TITTEL, BILDE OG BESKRIVELSE--> 
+                    <h1 class="title">Hasjrussikted biljkrasj</h1>
+                    <img class="img-fluid" src="Bilder/krasj.jpg">
+                    <p class="breadtext">Påvirket person krasjet i tre</p>
+                    
+<!--KNAPPER FOR Å LESE MER OG REDIGERE SAK + LØST/IKKE LØST-->
+                    <button class="read-more">Les mer</button><button class="edit-btn">Rediger sak</button>
+                    <input type="checkbox" name="løst">Løst/Ikke løst
+
+<!--INNHOLDS DIV-->
+                    <div class="inner-content">
+                        <p class="date">Dato: 20.10.2019 </p>
+                        <p class="time">Klokken: 19.00 
+                        <p class="place">Sted: Frogner, Oslo</p>
+                        <p class="case-content">Mann(20) påvirket av narkotika, kjørte inn i tre. Før han traff treet kjørte han over en gammel dame. Han løp deretter ut av bilen og er ikke funnet.</p>
+                    </div>
+<!--REDIGERINGS DIV-->
+                    <div class="edit-div">
+                        <form>
+                            
+                            <p>Tittel:<input class="input-title" input="text" name="title" value="Hasjrussikted biljkrasj"></p>
+                            
+                            <p>Beskrivelse:</p><textarea class="input-bread" rows="4" cols="40">Påvirket person krasjet i tre</textarea>
+                            
+                            <br><input class="input-date" type="text" name="dato" value="Dato:20.10.10">
+                            
+                            <br><input class="input-time" type="text" name="klokken" value="Klokken:19.00">
+                            
+                            <br><input class="input-place" type="text" name="sted" value="Sted:Frogner, Oslo">
+                            
+                            <p>Innhold:</p><textarea class="input-content" rows="4" cols="40">Mann(20) påvirket av narkotika, kjørte inn i tre. Før han traff treet kjørte han over en gammel dame. Han løp deretter ut av bilen og er ikke funnet.</textarea>
+                        </form>
+                        <button class="save-btn">Lagre</button> 
+                        <button class="delete-btn">Slett sak</button>
+                    </div>
+                </div>
+            </article>
+            
+<!--SAK3 INNHOLD-->
+            <article class="col-xs-12 col-md-6 col-lg-4">
+                <div class="main-content">
+
+<!--TITTEL, BILDE OG BESKRIVELSE--> 
+                    <h1 class="title">Terror Klovn</h1>
+                    <img class="img-fluid" src="Bilder/klown.jpg">
+                    <p class="breadtext">Aggresiv klovn stjal is.</p>
+                    
+<!--KNAPPER FOR Å LESE MER OG REDIGERE SAK + LØST/IKKE LØST-->
+                    <button class="read-more">Les mer</button><button class="edit-btn">Rediger sak</button>
+                    <input type="checkbox" name="løst">Løst/Ikke løst<p>
+
+<!--INNHOLDS DIV-->
+                        <div class="inner-content">
+                            <p class="date">Dato: 10.10.2019 </p>
+                            <p class="time">Klokken: 13.00
+                            <p class="place">Sted: Karl Johan, Oslo </p>
+                            <p class="case-content"> Mann ikledd klovne kostymet stjal is fra jente(6), deretter prøvde han å returnere den til butikken den ble kjøpt men ble avvist. Han ble aggresiv og butikkmedarbeideren tilkalte oss. Klovnen stakk av før vi var der. Leter fortsatt.</p>
+
+                        </div>
+<!--REDIGERINGS DIV-->
+                        <div class="edit-div">
+                            <form>
+                                
+                                <p>Tittel:<input class="input-title" input="text" name="title" value="Terror Klovn"></p>
+                                
+                                <p>Beskrivelse:</p><textarea class="input-bread" rows="4" cols="40">Aggresiv klovn stjal is.</textarea>
+                                
+                                <br><input class="input-date" type="text" name="dato" value="Dato: 10.10.2019">
+                                
+                                <br><input class="input-time" type="text" name="klokken" value="Klokken: 13.00">
+                                
+                                <br><input class="input-place" type="text" name="sted" value="Sted: Karl Johan, Oslo">
+                                
+                                <p>Innhold:</p><textarea class="input-content" rows="4" cols="40">Mann ikledd klovne kostymet stjal is fra jente(6), deretter prøvde han å returnere den til butikken den ble kjøpt men ble avvist. Han ble aggresiv og butikkmedarbeideren tilkalte oss. Klovnen stakk av før vi var der. Leter fortsatt.</textarea>
+                            </form>
+                            <button class="save-btn">Lagre</button>
+                            <button class="delete-btn">Slett sak</button>
+                        </div>
+                </div>
+            </article>
+            
+<!--SAK4 INNHOLD-->
+            <article class="col-xs-12 col-md-6 col-lg-4">
+                <div class="main-content">
+<!--TITTEL, BILDE OG BESKRIVELSE--> 
+                    <h1 class="title">Fisk på rømmen</h1>
+                    <img class="img-fluid" src="Bilder/fisk.jpg">
+                    <p class="breadtext">Kampfisk savnet av student.</p>
+                    
+<!--KNAPPER FOR Å LESE MER OG REDIGERE SAK + LØST/IKKE LØST-->
+                    <button class="read-more">Les mer</button><button class="edit-btn">Rediger sak</button>
+                    <input type="checkbox" name="løst">Løst/Ikke løst<p>
+
+<!--INNHOLDS DIV-->
+                        <div class="inner-content">
+                            <p>Dato: 30.09.2019 </p>
+                            <p>Klokken: 14.05 <p>Sted: Storgata, Oslo </p>
+                                <p> Student (22) rapporterte kampfisken sin savnet, og at det har vært innbrudd i leiligheten hans. Det er gjort en grundig etterforskning, det er derimot ingen tegn til innbrudd. Trolig svindelsforsøk. </p>
+                        </div>
+<!--REDIGERINGS DIV-->
+                        <div class="edit-div">
+                            <form>
+                                
+                                <p>Tittel:<input class="input-title" input="text" name="title" value="Fisk på rømmen"></p>
+                                
+                                <p>Beskrivelse:</p><textarea class="input-bread" rows="4" cols="40">Kampfisk savnet av student.
+                                </textarea>
+                                
+                                <br><input class="input-date" type="text" name="dato" value="Dato: 30.09.2019">
+                                
+                                <br><input class="input-time" type="text" name="klokken" value="Klokken: 14.05">
+                                
+                                <br><input class="input-place" type="text" name="sted" value="Sted: Storgata, Oslo">
+                                
+                                <p>Innhold:</p><textarea class="input-content" rows="4" cols="40">Student (22) rapporterte kampfisken sin savnet, og at det har vært innbrudd i leiligheten hans. Det er gjort en grundig etterforskning, det er derimot ingen tegn til innbrudd. Trolig svindelsforsøk.</textarea>
+                            </form>
+                            <button class="save-btn">Lagre</button>
+                            <button class="delete-btn">Slett sak</button>
+                        </div>
+                </div>
+            </article>
+            
+<!--SAK5 INNHOLD-->
+            <article class="col-xs-12 col-md-6 col-lg-4">
+                <div class="main-content">
+<!--TITTEL, BILDE OG BESKRIVELSE--> 
+                    <h1 class="title">Nordlending forsvunnet</h1>
+                    <img class="img-fluid" src="Bilder/savnet.png">
+                    <p class="breadtext">Nordland savner lakseopdrettbaron.</p>
+
+<!--KNAPPER FOR Å LESE MER OG REDIGERE SAK + LØST/IKKE LØST-->
+                    <button class="read-more">Les mer</button>
+                    <button class="edit-btn">Rediger sak</button>
+                    <input type="checkbox" name="løst">Løst/ikke løst
+
+<!--INNHOLDS DIV-->
+                    <div class="inner-content">
+                        <p class="date">Dato: 26.09.2019 </p>
+                        <p class="time">Klokken: 14.50 
+                        <p class="place">Sted: Bodø, Nordland </p>
+                        <p class="case-content"> Baronen hadde trøbbel med lån av penger. I leiligheten fant de tegn på innbrudd og voldsmisbruk. Nordland fylke har etterspurt hjelp fra hele Norge om å finne han. </p>
+                    </div>
+<!--REDIGERINGS DIV-->
+                    <div class="edit-div">
+                        <form>
+                            
+                            <p>Tittel:<input class="input-title" input="text" name="title" value="Nordlending forsvunnet"></p>
+                            
+                            <p>Beskrivelse:</p><textarea class="input-bread" rows="4" cols="40">Nordland savner lakseopdrettbaron.</textarea>
+                            
+                            <br><input class="input-date" type="text" name="dato" value="Dato: 26.09.2019">
+                            
+                            <br><input class="input-time" type="text" name="klokken" value="Klokken: 14.50">
+                            
+                            <br><input class="input-place" type="text" name="sted" value="Sted: Bodø, Nordland ">
+                            
+                            <p>Innhold:</p><textarea class="input-content" rows="4" cols="40">Baronen hadde trøbbel med lån av penger. I leiligheten fant de tegn på innbrudd og voldsmisbruk. Nordland fylke har etterspurt hjelp fra hele Norge om å finne han.</textarea>
+                        </form>
+                        <button class="save-btn">Lagre</button>
+                        <button class="delete-btn">Slett sak</button>
+                    </div>
+                </div>
+            </article>
+            
+<!--SAK6 INNHOLD-->
+            <article class="col-xs-12 col-md-6 col-lg-4">
+                <div class="main-content">
+<!--TITTEL, BILDE OG BESKRIVELSE--> 
+                    <h1 class="title">Terrorsikted</h1>
+                    <img class="img-fluid" src="Bilder/kidnappet.jpg" />
+                    <p class="breadtext">Terrorsikted nordmann kidnapning</p>
+
+<!--KNAPPER FOR Å LESE MER OG REDIGERE SAK + LØST/IKKE LØST-->
+                    <button class="read-more">Les mer</button><button class="edit-btn">Rediger sak</button>
+                    <input type="checkbox" name="løst">Løst/Ikke løst
+<!--INNHOLDS DIV-->
+                    <div class="inner-content">
+                        <p class="date">Dato: 13.09.2019</p>
+                        <p class="time">Klokken: 12.10</p>
+                        <p class="place">Sted: Nordstrand, Oslo</p>
+                        <p class="case-content"> Den terrorsiktede kvinnen(21) tok en ung gutt med seg før hun tok av i en blå sudan 3x50. Hun er fortsatt på rømmen, svenske politietater har også starten etterforskning på samme sak.</p>
+                    </div>
+<!--REDIGERINGS DIV-->
+                    <div class="edit-div">
+                        <form>
+                            <p>Tittel:<input class="input-title" input="text" name="title" value="Terrorsikted"></p>
+                            
+                            <p>Beskrivelse:</p>
+                            <textarea class="input-bread" rows="4" cols="40">Terrorsikted nordmann kidnapning</textarea>
+                            
+                            <br><input class="input-date"
+                            type="text" name="dato" value="Dato: 13.09.2019">
+                            
+                            <br><input class="input-time" type="text" name="klokken" value="Klokken: 12.10">
+                            
+                            <br><input class="input-place" type="text" name="sted" value="Sted: Nordstrand, Oslo">
+                            
+                            <p>Innhold:</p><textarea class="input-content" rows="4" cols="40">Den terrorsiktede kvinnen(21) tok en ung gutt med seg før hun tok av i en blå sudan 3x50. Hun er fortsatt på rømmen, svenske politietater har også starten etterforskning på samme sak. </textarea>
+                        </form>
+                        <button class="save-btn">Lagre</button>
+                        <button class="delete-btn">Slett sak</button>
+                    </div>
+                </div>
+            </article>
+            
+<!--SAK7 INNHOLD-->
+            <article class="col-xs-12 col-md-6 col-lg-4">
+                <div class="main-content">
+<!--TITTEL, BILDE OG BESKRIVELSE--> 
+                    <h1 class="title">Ulovlig import av ost</h1>
+                    <img class="img-fluid" src="Bilder/ost.jpg">
+                    <p class="breadtext">Stor økning i import av ulovlig ost.</p>
+
+<!--KNAPPER FOR Å LESE MER OG REDIGERE SAK + LØST/IKKE LØST-->
+                    <button class="read-more">Les mer</button><button class="edit-btn">Rediger sak</button>
+                    <input type="checkbox" name="løst">Løst/Ikke løst
+                    
+<!--INNHOLDS DIV-->
+                    <div class="inner-content">
+                        <p class="date">Dato: 10.09.2019 </p>
+                        <p class="time">Klokken: 15.00 
+                        <p class="place">Sted: Svinesund, Halden </p>
+                        <p class="case-content">Politiet i nedre Østfold har opplevd en stor økning i import av ost. Politiet i oslo er satt i arbeid for å sjekke alle mistenkeligheter. Ønsker reduskjon av denne importvaren. </p>
+                    </div>
+<!--REDIGERINGS DIV-->
+                    <div class="edit-div">
+                        <form>
+                            <p>Tittel:<input class="input-title" input="text" name="title" value="Ulovlig import av ost"></p>
+                            
+                            <p>Beskrivelse:</p><textarea class="input-bread" rows="4" cols="40">Stor økning i import av ulovlig ost.</textarea>
+                            
+                            <br><input class="input-date" type="text" name="dato" value="Dato: 10.09.2019 ">
+                            
+                            <br><input class="input-time" type="text" name="klokken" value="Klokken: 15.00">
+                            
+                            <br><input class="input-place" type="text" name="sted" value="Sted: Svinesund, Halden">
+                            
+                            <p>Innhold:</p><textarea class="input-content" rows="4" cols="40">Politiet i nedre Østfold har opplevd en stor økning i import av ost. Politiet i oslo er satt i arbeid for å sjekke alle mistenkeligheter. Ønsker reduskjon av denne importvaren.</textarea>
+                        </form>
+                        <button class="save-btn">Lagre</button>
+                        <button class="delete-btn">Slett sak</button>
+                    </div>
+                </div>
+            </article>
+
+<!--OPPRETT NY SAK INNHOLD-->             
+            <article class="col-xs-12 col-md-6 col-lg-4">
+                <div class="main-content">
+                   <!--TITTEL, BILDE OG BESKRIVELSE--> 
+                    <h1 class="title"></h1>
+                    <img class="img-fluid" src="Bilder/SKjema.png">
+                    <p class="breadtext"></p>
+
+<!--KNAPPER FOR Å LESE MER OG REDIGERE SAK + LØST/IKKE LØST-->
+                    <button class="read-more">Les mer</button><button class="edit-btn">Opprett sak</button>
+                    <input type="checkbox" name="løst">Løst/Ikke løst
+                    
+<!--INNHOLDS DIV TOM-->
+                    <div class="inner-content">
+                        <p class="date"></p>
+                        <p class="time">
+                        <p class="place"></p>
+                        <p class="case-content"> </p>
+                    </div>
+<!--REDIGERINGS DIV-->
+                    <div class="edit-div">
+                        <form>
+                            <p>Tittel:<input class="input-title" input="text" name="title"></p>
+                            
+                            <p>Beskrivelse:</p><textarea class="input-bread" rows="4" cols="40"></textarea>
+                            
+                            <br><input class="input-date" type="text" name="dato" value="Dato:">
+                            
+                            <br><input class="input-time" type="text" name="klokken" value="Klokken:">
+                            
+                            <br><input class="input-place" type="text" name="sted" value="Sted:">
+                            
+                            <p>Innhold:</p><textarea class="input-content" rows="4" cols="40"></textarea>
+                        </form>
+                        <button class="save-btn">Lagre</button>
+                        <button class="delete-btn">Slett sak</button>
+                    </div>
+                </div>
+            </article>   
+        </main>
+    </div>
+
+<!--FOOTER INNHOLD-->
+    <footer id="footer">
+        <div>
+            <p class="footer-txt"> Telefon: 490124919 </p>
+            <p class="footer-txt">Mail: pst@mail.no</p>
+            <p class="footer-txt">Twitter:@PSTnorge</p>
+        </div>
+    </footer>
+<script src="Forside.js"></script>
+</body>
+</html>
